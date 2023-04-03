@@ -9,7 +9,7 @@ pipeline{
               agent any
               steps{
 		 echo 'cloning in master..'
-                 git 'https://github.com/theitern/DevOpsCodeDemo.git'
+                 git 'https://github.com/preshcode007/DevOpsCodeDemo.git'
               }
           }
           stage('Compile'){
